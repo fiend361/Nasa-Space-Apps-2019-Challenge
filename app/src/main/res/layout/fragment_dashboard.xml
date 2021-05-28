@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="190dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/registration_card"
+                android:layout_marginBottom="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="9dp">
+
+                    <TextView
+                        android:id="@+id/regCardTxt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Registrations"
+                        android:textColor="#000"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/regCardTxt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/regCardTxt1"
+                        android:layout_marginStart="10dp"
+                        android:text="Interested in joining us on our epic journey? You Are not Registered yet" />
+
+                    <TextView
+                        android:id="@+id/regCardTxt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="-387dp"
+                        android:layout_marginTop="104dp"
+                        android:layout_toEndOf="@+id/regCardTxt2"
+                        android:clickable="true"
+                        android:text="Register now"
+                        android:textColor="#677BE7" />
+
+                    <Button
+                        android:id="@+id/visualizationbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="100dp"
+                        android:text="visualization"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/getTicketButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="45dp"
+                        android:text="Get Your Ticket Now"
+                        android:textColor="#435ED5"
+                        android:textSize="25sp"
+                        android:visibility="gone"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_below="@id/registration_card"
+                android:layout_marginTop="6dp"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="9dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingEnd="9dp"
+                    android:paddingBottom="9dp">
+
+                    <TextView
+                        android:id="@+id/TrainingCardTxti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Training"
+                        android:textColor="#000"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/TrainingCardTxtii"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@id/TrainingCardTxti"
+                        android:layout_marginStart="10dp"
+                        android:text="Not familiarized with space tourism? Get You training now" />
+
+                    <FrameLayout
+                        android:id="@+id/lllll"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/TrainingCardTxtii"
+                        android:layout_width="1dp"
+                        android:layout_height="1dp">
+
+                        <VideoView
+                            android:id="@+id/videoView5"
+                            android:layout_width="1dp"
+                            android:layout_height="1dp"
+                            android:layout_alignStart="@+id/lllll" />
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/TrainingCardTxtiii"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/lllll"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="97dp"
+                        android:clickable="true"
+                        android:text="Register for training"
+                        android:textColor="#435ED5" />
+
+                </RelativeLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/earthh"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/name_editText"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginBottom="448dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="9dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/email_editText"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginBottom="392dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="9dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/password_editText"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#fff"
+        android:paddingLeft="9dp"
+        android:textColorHint="#fff"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/email_editText"
+        app:layout_constraintTop_toBottomOf="@+id/email_editText" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_new"
+        android:text="login"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/register_textView"
+        app:layout_constraintStart_toStartOf="@+id/register_textView" />
+
+    <TextView
+        android:id="@+id/register_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="224dp"
+        android:text="Don't Have an Account?"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="307dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/nasa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

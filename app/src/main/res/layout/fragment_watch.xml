@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:id="@+id/watchTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@+id/b"
+        android:layout_marginTop="250dp"
+        android:padding="7dp"
+        android:text=" Neil Armstrong was the first human to land on a surface outside of the earth what if you were instead of him and have the first sample from another body outside of the earth like Armstrong which now costs 1,000,000,000$. Don’t regret you don’t miss the chance you still have the opportunity.
+The biggest world competition held on the earth divided to three main categories select the suitable for you and join. "
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/b"
+        android:layout_marginTop="443dp"
+        android:text="built your children:
+Your son could apply with his story to the competition and enjoy a 12 years boarding school in our space ship in addition to a voyage to Neptune and will considered as the first human to held the beyond Neptune citizenship.
+"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/b"
+        android:layout_marginTop="544dp"
+        android:text="The early retirement:
+This is the right place for you if you are searching for a retirement resort. You could apply and join our retirement voyage to beyond Neptune and to be the first early retire to held the beyond Neptune citizen ship.
+"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/b"
+        android:layout_marginTop="637dp"
+        android:text="The marriage plan: Share your loving story with us and the most votes massages you get the bigger opportunity you have to catch this opportunity and be the first couples to land on any surface beyond Neptune. "
+        android:textColor="#fff" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="9dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </FrameLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</RelativeLayout>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="Is there a health assurance that save me my life?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff" />
+
+        <TextView
+            android:text="Yes, there is a first aid course before the voyage you could book, and also there is a health equipment’s aid box for emergencies time.
+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F5EFEF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="What are the average temperature in Pluto?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff" />
+
+        <TextView
+            android:text="Sadly, the temperature is freezing but luckily we provide a way of generating heat to warm the passengers 24/7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F5EFEF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="Is the journey completely safe?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff" />
+
+        <TextView
+            android:text="Yes, as it provides a lot of safety equipment as following: a helmet with renewable source of oxygen which means you will not run of oxygen, the suit will provide a heat and warm for the passengers."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F5EFEF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="Will be there any ways of entertainment?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff" />
+
+        <TextView
+            android:text="Yes, actually there will be two ways of entertainment the first one is a specific part of the ship which is a non-gravitational room as you the passenger could enjoy your time
+
+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F5EFEF"
+            android:textSize="20sp" />
+
+</LinearLayout>

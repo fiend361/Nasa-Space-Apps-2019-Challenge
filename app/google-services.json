@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "293034253470",
+    "firebase_url": "https://nasa-86425.firebaseio.com",
+    "project_id": "nasa-86425",
+    "storage_bucket": "nasa-86425.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293034253470:android:1ec964a9aafb4591ceaf8f",
+        "android_client_info": {
+          "package_name": "com.jsoftware.nasa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293034253470-5eril9uqmjef1nnvuvehbmdod6btccdd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jsoftware.nasa",
+            "certificate_hash": "8427d70fb4c264c1743b63689c55e34c76c3e634"
+          }
+        },
+        {
+          "client_id": "293034253470-cgpoi1m5rm6agui9n9mj1347ocea1pk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR1Lh0VtP2pYye4cXkrt54j6Sq3C9pIU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293034253470-cgpoi1m5rm6agui9n9mj1347ocea1pk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
